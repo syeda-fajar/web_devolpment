@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:80vw ;
+    max-width: 1150px;
+    height: 100vh;
+    margin: auto;
+}
+.container{
+    height: 100vh;
+   background: url('Urban Fashion Img/background.png')repeat no-repeat center center/cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+   
+}
+.header img{
+    width: 60px;}
+
+
+.nav-bar{
+        display: flex;
+     }
+     .nav-bar ul{
+    display: flex;
+ }
+
+.nav-bar img:nth-of-type(1){
+width: 200px;
+}
+
+.nav-bar ul a{
+    font-size: 17px;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px 30px;
+    cursor: pointer;
+
+
+    
+}
+.nav-bar ul li:hover{
+  border-bottom: 1px solid plum;
+
+}
+.main{
+    display: flex;
+}
+.content img{
+    width: 40px;
+
+}
+.content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+width: 300px;
+margin-top: 120px;
+margin-left: 150px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.content button{
+    padding: 10px 20px;
+    background-color:plum;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family:cursive;
+    font-size: 15px;
+}
+.content p{
+font-size: 16px;
+padding: 20px 4px;
+
+
+}
+
+
+.main-right img{
+    width: 83%;
+    height: 100%;
+}
