@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+.flex_col
+{
+    flex-direction: column;
+}
+.justify_space
+{
+    justify-content: space-between;
+}
+
+.flex_align
+{
+    align-items: center;
+    justify-content: center;
+}
+.text_center
+{
+    text-align: center;
+}
+.pd{
+    padding:  50px;
+}
+

@@ -1,0 +1,25 @@
+console.log("welcome to tic Tac toe")
+let music = new Audio("music.mp3")
+let audioturn = new Audio("ting.mp3")
+let gameover = new Audio("gameover.mp3")
+let turn = "x"
+//function to change turn
+const changeTurn = ()=>{return turn=="x"? "0":"x"}
+//function to check for a win
+const checkWin =()=>{}
+
+
+// game logic
+let box = document.getElementsByClassName("box");
+Array.from(boxes).forEach(element=>{
+    let boxtext = element.querySelector('.boxtext');
+    element.addEventListener('click',()=>{
+        if(boxtext.innerText == ''){
+            boxtext.innerText="x";
+           turn=changeTurn();
+            audioturn.play();
+            checkWin();
+            document.getElementsByClassName("info")[0].innerText = "Turn for"+turn;
+        }
+    })
+})

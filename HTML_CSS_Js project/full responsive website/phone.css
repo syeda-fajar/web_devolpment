@@ -1,0 +1,39 @@
+#navbar {
+    flex-direction: column;
+ 
+}
+#navbar ul li a{
+    padding: 0px 9px;
+    margin-top: 0px;
+ 
+}
+#logo img {  }
+/* Home section */
+#home{
+    height: 450px;
+    padding: 5px 3px;
+}
+#home p{
+    width: 300px;
+}
+.h-primary{
+    font-size: 1.8rem;
+}
+#services{ flex-direction: column;
+}
+#services .box{
+    padding: 5px 39px;
+    margin: 6px 33px;
+}
+#clients{
+flex-direction: column;
+}
+.client-item{
+    padding: 6px 8px;
+    
+}
+#clients img{
+    height: 100px;
+  
+}
+
