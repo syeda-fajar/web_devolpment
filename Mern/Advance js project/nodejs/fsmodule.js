@@ -1,0 +1,5 @@
+const fs = require("fs")
+console.log(fs)
+console.log("starting")
+fs.writeFileSync("fjr.txt","hi this is me ")
+console.log('End')

@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": 1761971147165,
+      "title": "Test Note",
+      "content": "Testing content",
+      "createdAt": "2025-11-01T04:25:47.165Z"
+    },
+    {
+      "id": 1761971253023,
+      "title": "Completely New Title",
+      "content": "Completely New Content",
+      "createdAt": "2025-11-01T04:27:33.023Z"
+    }
+  ]
+}

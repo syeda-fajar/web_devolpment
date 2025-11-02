@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <input type="text" placeholder="Enter title" id="task-title">
+            <textarea name="text1" id="txt1"></textarea>
+            <select id="task-category">
+                <option value="">Select Category</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Study">Study</option>
+            </select>
+
+            <select id="task-priority">
+                <option value="">Select Priority</option>
+                <option value="High">High 🔥</option>
+                <option value="Medium">Medium ⚡</option>
+                <option value="Low">Low 🌱</option>
+            </select>
+
+            <button type="submit" id="submit1">Add Task</button>
+        </form>
+        <select id="priority-filter">
+            <option value="all">All Priorities</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+            <option value="Urgent">Urgent</option>
+        </select>
+
+        <div id="task-list"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

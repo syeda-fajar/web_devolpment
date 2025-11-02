@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(227, 159, 182);
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    width: 20vw;
+    height: 40vh;
+    background-color: rgba(239, 187, 208, 0.616);
+    margin: 15px;
+}
+.tool{
+    width: 100%;
+    height: 25px;
+    background-color:rgb(206, 63, 111);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;  
+
+}
+.tool i{
+ margin: 5px;
+}
+.btn{
+    width: 60x;
+    height: 30px;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    margin: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+textarea{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<h2>Shopping Cart</h2>
+<div id="cart-container"></div>
+
+<label for="categorySelect">Filter by Category:</label>
+<select id="categoryFilter"></select>
+<label for="sortPrice">Sort by Price:</label>
+<select id="sortPrice">
+  <option value="default">Default</option>
+  <option value="asc">Low to High</option>
+  <option value="desc">High to Low</option>
+</select>
+
+
+    <div id="product-container" class="product-grid">
+
+    </div>
+    <div class="pagination">
+        <button id="prevBtn">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextBtn">Next</button>
+    </div>  
+
+
+<div id="userInfo"></div>
+
+<!-- Trigger buttons -->
+<button id="openLoginBtn">Login</button>
+<button id="openSignupBtn">Sign Up</button>
+
+<!-- Login Modal -->
+<div id="loginModal" class="modal hidden">
+  <form id="loginForm">
+    <h3>Login</h3>
+    <input type="email" id="loginEmail" placeholder="Email" required />
+    <input type="password" id="loginPassword" placeholder="Password" required />
+    <button type="submit">Login</button>
+    <button type="button" id="closeLoginBtn">Close</button>
+  </form>
+</div>
+
+<!-- Signup Modal -->
+<div id="signupModal" class="modal hidden">
+  <form id="signupForm">
+    <h3>Sign Up</h3>
+    <input type="email" id="signupEmail" placeholder="Email" required />
+    <input type="password" id="signupPassword" placeholder="Password" required />
+    <button type="submit">Sign Up</button>
+    <button type="button" id="closeSignupBtn">Close</button>
+  </form>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
