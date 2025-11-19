@@ -1,6 +1,19 @@
 
 import user from "../models/user.js";
 import jwt from "jsonwebtoken";
+export const getMe = async (req, res) => {
+  try {
+    res.status(200).json({
+      success: true,
+      data: req.user
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Server error'
+    });
+  }
+};
 export const register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
